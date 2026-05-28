@@ -1,0 +1,6 @@
+pycryptodome
+gmpy2
+sympy
+flask
+cryptography
+requests
