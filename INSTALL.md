@@ -46,7 +46,7 @@
 If you just want to get started immediately:
 
 ```bash
-git clone https://github.com/yourname/toolkit.git
+git clone https://github.com/RonakBajracharya/toolkit.git
 cd toolkit
 pip install -r requirements.txt
 python ctf_crypto.py          # interactive terminal UI
@@ -62,7 +62,7 @@ python server.py              # web interface at http://localhost:5000
 #### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/yourname/toolkit.git
+git clone https://github.com/RonakBajracharya/toolkit.git
 cd toolkit
 ```
 
