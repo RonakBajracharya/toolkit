@@ -46,8 +46,8 @@
 If you just want to get started immediately:
 
 ```bash
-git clone https://github.com/yourname/ctf-crypto-toolkit.git
-cd ctf-crypto-toolkit
+git clone https://github.com/yourname/toolkit.git
+cd toolkit
 pip install -r requirements.txt
 python ctf_crypto.py          # interactive terminal UI
 python server.py              # web interface at http://localhost:5000
@@ -62,15 +62,15 @@ python server.py              # web interface at http://localhost:5000
 #### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/yourname/ctf-crypto-toolkit.git
-cd ctf-crypto-toolkit
+git clone https://github.com/yourname/toolkit.git
+cd toolkit
 ```
 
 Or, if you received the toolkit as a zip:
 
 ```bash
-unzip ctf-crypto-toolkit.zip
-cd ctf-crypto-toolkit
+unzip toolkit.zip
+cd toolkit
 ```
 
 #### Step 2 — Install system dependencies
@@ -485,7 +485,7 @@ pip install --upgrade sympy
 The server reads `static/index.html` at startup. Make sure the `static/` directory exists and contains `index.html`:
 
 ```bash
-ls ctf-crypto-toolkit/static/
+ls toolkit/static/
 # Should show: index.html
 ```
 
@@ -544,7 +544,7 @@ pip install -r requirements.txt --upgrade
 ## File Structure Reference
 
 ```
-ctf-crypto-toolkit/
+toolkit/
 │
 ├── ctf_crypto.py          CLI entry point (interactive + command mode)
 ├── server.py              Flask web server & REST API
